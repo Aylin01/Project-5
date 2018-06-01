@@ -1,0 +1,5 @@
+Things to remember for Porject 5
+
+//This project is doable without assuming any upper limit for the output line length (the first parameter of stuff) — rather than storing the parts of an output line in a C string to be written later, you instead write them as soon as you can. However, some people may not figure out how to do that, so we'll give you a choice. If the first parameter of stuff is greater than 300, your implementation of stuff must either:
+    //return 2 without writing any output; or
+   // stuff the text using the indicated line length, returning 0 or 1 as appropriate (i.e., your algorithm doesn't impose any upper limit on the output line length). Implementing this choice correctly (instead of returning 2 and producing no output) is worth 5 bonus points.
