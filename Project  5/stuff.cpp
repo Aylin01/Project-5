@@ -9,7 +9,9 @@ hyphenated words are special
 put an empty line between output paragraphs #p#
 end on an empty line
  */
-
+void doNothing(){
+    
+}
 int wordChecker(char a[], int& start) //This function will check if its a word and how long the word is.
 {
     int spaceCounter = 0;
